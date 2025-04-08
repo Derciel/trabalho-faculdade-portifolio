@@ -20,3 +20,27 @@ body {
     margin-bottom: 20px;
   }
   
+  .perfil {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 20px auto;
+    display: block;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  }
+
+  .redes {
+    margin-top: 15px;
+  }
+  
+  .icone {
+    width: 32px;
+    margin: 0 10px;
+    transition: transform 0.2s ease;
+  }
+  
+  .icone:hover {
+    transform: scale(1.2);
+  }
+  
