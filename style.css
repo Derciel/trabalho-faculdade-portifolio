@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 40px;
+    background: #f9f9f9;
+  }
+  
+  header {
+    text-align: center;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  section {
+    margin-top: 30px;
+  }
+  
+  .projeto {
+    margin-bottom: 20px;
+  }
+  
+  .perfil {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 20px auto;
+    display: block;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  }
+
+  .redes {
+    margin-top: 15px;
+  }
+  
+  .icone {
+    width: 32px;
+    margin: 0 10px;
+    transition: transform 0.2s ease;
+  }
+  
+  .icone:hover {
+    transform: scale(1.2);
+  }
+  
+  /* Layout geral para tamanhos menores */
+body {
+    padding: 20px;
+  }
+  
+  /* Imagem de perfil responsiva */
+  .perfil {
+    width: 120px;
+    height: 120px;
+  }
+  
+  /* Ícones sociais responsivos */
+  .icone {
+    width: 28px;
+    margin: 0 8px;
+  }
+  
+  /* Ajustes para telas pequenas (celulares) */
+  @media (max-width: 600px) {
+    body {
+      margin: 20px;
+      font-size: 16px;
+    }
+  
+    h1 {
+      font-size: 22px;
+    }
+  
+    h2 {
+      font-size: 20px;
+    }
+  
+    .perfil {
+      width: 100px;
+      height: 100px;
+    }
+  
+    .icone {
+      width: 24px;
+      margin: 0 6px;
+    }
+  }
+  
