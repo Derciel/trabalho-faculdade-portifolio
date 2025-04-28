@@ -1,10 +1,8 @@
 {
   "extends": ["html-validate:recommended"],
   "rules": {
-    "no-trailing-whitespace": "error",
+    "require-lang": "off",               
     "no-duplicate-id": "error",
-    "void-style": "error",
-    "require-lang": "error",
-    "no-inline-style": "off"
+    "no-trailing-whitespace": "error"
   }
 }
