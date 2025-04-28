@@ -2,16 +2,21 @@ name: Deploy para GitHub Pages
 
 on:
   push:
-    branches:
-      - main
+    branches: [main]
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v3
-      - name: Deploy no GitHub Pages
+      - name: Checkout do código
+        uses: actions/checkout@v4
+
+      - name: Build do site (se necessário)
+        run: echo "Seu processo de build, se tiver"  
+
+      - name: Deploy para GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./
+          publish_dir: ./  
