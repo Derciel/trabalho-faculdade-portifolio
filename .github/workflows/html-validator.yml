@@ -17,4 +17,3 @@ jobs:
         uses: wearerequired/html-validate-action@v1
         with:
           config: .htmlvalidate.json
-        continue-on-error: false
